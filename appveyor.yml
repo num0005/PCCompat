@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Release
+platform: x86
+build:
+  verbosity: minimal
+artifacts:
+- path: Release\PCCompat.dll
+  name: PCCompat.dll
+- path: Release\PCCompat.pdb
+  name: PCCompat.pdb
