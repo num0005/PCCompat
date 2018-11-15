@@ -9,3 +9,7 @@ artifacts:
   name: PCCompat.dll
 - path: Release\PCCompat.pdb
   name: PCCompat.pdb
+deploy:
+- provider: GitHub
+  auth_token:
+    secure: /iADkDoLsXkpLSLSWqR825xeIfZ3yTg47TZR9PKhUmNRUClYM2Su9XNI4WDNIwB/
